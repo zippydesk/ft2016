@@ -3,6 +3,8 @@ body {
   margin: auto;
   background-color: #fff;
   color: #333;
+  
+  font-family: "Proxima N W02 Reg", sans-serif;
 }
 
 a:link {
