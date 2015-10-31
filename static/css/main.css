@@ -45,6 +45,10 @@ header + nav a {
     margin-right: 2em;
 }
 
+.speakers img {
+  max-width: 10em;
+}
+
 @media (min-width: 800px) {
     
     .speakers picture {
