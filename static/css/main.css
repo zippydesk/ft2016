@@ -1,4 +1,14 @@
 body {
   max-width: 55em;
   margin: auto;
+  background-color: #fff;
+  color: #333;
+}
+
+a:link {
+  color: #ff1845;
+}
+
+a:visited {
+  color: #b30024;
 }
