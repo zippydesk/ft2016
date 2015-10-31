@@ -7,8 +7,8 @@ layout: default
     <article id="{{ post.slug }}">
       <header>
         <picture>
-          <source srcset="{{ post.slug }}.png" media="(min-width: 600px)">
-          <img src="{{ post.slug }}.png" alt="{{ post.first_name }} {{ post.last_name }} photo">
+          <source srcset="{{ site.baseurl }}static/img/speakers/{{ post.slug }}.png" media="(min-width: 600px)">
+          <img src="{{ site.baseurl }}static/img/speakers/{{ post.slug }}.png" alt="{{ post.first_name }} {{ post.last_name }} photo">
         </picture>
         <h2>{{ post.first_name }} {{ post.last_name }}</h2>
         <h4>{{ post.tagline }}</h4>
