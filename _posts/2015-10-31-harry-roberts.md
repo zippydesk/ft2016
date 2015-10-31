@@ -1,5 +1,5 @@
 ---
-name: Harry Roberts
+title: Harry Roberts
 first_name: Harry
 last_name: Roberts
 layout: speaker
