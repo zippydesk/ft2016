@@ -16,7 +16,8 @@ active: speakers
         <h2>{{ post.first_name }} {{ post.last_name }}</h2>
         <h4>{{ post.tagline }}</h4>
         <ul>
-          {% if post.twitter != "" %}<li><a href="https://twitter.com/{{ post.twitter }}">@{{ post.twitter }}</a></li>{% endif %}
+          {% if post.twitter <> "" %}<li><a href="https://twitter.com/{{ post.twitter }}">@{{ post.twitter }}</a></li>{% endif %}
+          {% if post.github <> "" %}<li><a href="https://twitter.com/{{ post.twitter }}">@{{ post.twitter }}</a></li>{% endif %}
         </ul>
       </header>
       <div class="bio">
