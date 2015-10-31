@@ -4,15 +4,9 @@ layout: default
 active: speakers
 ---
 
-<ul>
 {% assign sorted_posts = (site.posts | sort: 'last_name') %}
-{% for post in sorted_posts %}
-    <li>{{ post.title }}</li>
-{% endfor %}
-</ul>
-
 <section class="speakers">
-  {% for post in site.posts reversed %}
+  {% for post in sorted_posts %}
     <article id="{{ post.slug }}">
       <header>
         <picture>
