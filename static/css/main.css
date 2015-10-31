@@ -26,9 +26,10 @@ strong {
     margin-right: 5%;
 }
 
-@media (max-width: 800px) {
-
+@media (min-width: 800px) {
+    
     .speakers picture {
         float: left;
     }
+
 }
