@@ -22,7 +22,13 @@ strong {
 }
 
 .speakers picture {
-    float: left;
     max-width: 45%;
     margin-right: 5%;
+}
+
+@media (max-width: 800px) {
+
+    .speakers picture {
+        float: left;
+    }
 }
