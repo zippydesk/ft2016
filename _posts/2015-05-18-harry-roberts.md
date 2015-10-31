@@ -1,9 +1,10 @@
 ---
 title: Harry Roberts
+layout: speaker
 slug: harry-roberts
 first_name: Harry
 last_name: Roberts
-layout: speaker
+photo: "http://"
 tagline: "Front-End Architect"
 date: "2015-05-18 09:45:00"
 talk_title: "TBA"
