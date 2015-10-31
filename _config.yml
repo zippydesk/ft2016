@@ -1,4 +1,3 @@
-# top level stuff you probably don't need to touch
 highlighter: pygments
 markdown: rdiscount
 rdiscount:
@@ -8,8 +7,6 @@ paginate: 5
 port: 3000
 safe: true
 
-
-# edit here to achieve your personal greatness
 url: http://zippydesk.github.io/
 baseurl: /ft2016/
 title: "Front-Trends 2016"
