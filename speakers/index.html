@@ -4,6 +4,12 @@ layout: default
 active: speakers
 ---
 
+<ul>
+{% assign sorted_pages = (site.pages | sort: 'last_name') %}
+{% for page in sorted_pages %}
+    <li>{{ page.title }}</li>
+{% endfor %}
+
 <section class="speakers">
   {% for post in site.posts reversed %}
     <article id="{{ post.slug }}">
