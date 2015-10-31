@@ -27,6 +27,17 @@ strong {
   font-family: "Proxima N W02 Bold", sans-serif;
 }
 
+header + nav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+header + nav a {
+  display: block;
+  padding: .5em 1em;
+}
+
 .speakers picture {
     max-width: 45%;
     margin-right: 5%;
