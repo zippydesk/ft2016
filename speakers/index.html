@@ -5,7 +5,7 @@ active: speakers
 ---
 
 <section class="speakers">
-  {% for post in site.posts limit: 40 %}
+  {% for post in site.posts reversed %}
     <article id="{{ post.slug }}">
       <header>
         <picture>
