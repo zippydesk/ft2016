@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts limit: 40 %}
     <article id="{{ post.first_name }}-{{ post.last_name }}">
       <header>
-        <h2>{{ post.first_name | slugify: 'pretty' }} {{ post.last_name | slugify: 'pretty' }}</h2>
+        <h2>{{ post.first_name | slugify: 'pretty' }} {{ post.last_name | slugify }}</h2>
         <h4>{{ post.tagline }}</h4>
       </header>
       <div class="bio">
