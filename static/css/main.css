@@ -1,1 +1,4 @@
-
+body {
+  max-width: 55em;
+  margin: auto;
+}
