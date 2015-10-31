@@ -3,7 +3,7 @@ layout: default
 ---
 
 <ul>
-  {% for speaker in site.posts %}
-    <li>{{ speaker.first_name }} {{ speaker.last_name }}</li>
+  {% for post in site.posts %}
+    <li>{{ post.first_name }} {{ post.last_name }}</li>
   {% endfor %}
 </ul>
