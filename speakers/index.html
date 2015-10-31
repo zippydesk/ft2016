@@ -6,6 +6,10 @@ layout: default
   {% for post in site.posts limit: 40 %}
     <article id="{{ post.slug }}">
       <header>
+        <picture>
+          <source srcset="{{ post.slug }}.png" media="(min-width: 600px)">
+          <img src="{{ post.slug }}.png" alt="{{ post.first_name }} {{ post.last_name }} photo">
+        </picture>
         <h2>{{ post.first_name }} {{ post.last_name }}</h2>
         <h4>{{ post.tagline }}</h4>
       </header>
