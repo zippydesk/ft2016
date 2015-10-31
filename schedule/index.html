@@ -7,7 +7,7 @@ active: schedule
 <section class="schedule">
   {% for post in site.posts reversed %}
     <article id="{{ post.talk_title | slugify }}">
-        <date>{{ post.date | date: "%H:%M" }}</date>
+        <time>{{ post.date | date: "%H:%M" }}</time>
         <h2>{{ post.talk_title }}</h2>
         <h3>{{ post.first_name }} {{ post.last_name }}</h3>
       </div>
