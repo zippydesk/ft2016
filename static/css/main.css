@@ -1,9 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+  
+}
+
 body {
   max-width: 45em;
   margin: auto;
+  padding: 1em;
   background-color: #fff;
   color: #333;
-  
   font-family: "Proxima N W02 Reg", sans-serif;
 }
 
