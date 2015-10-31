@@ -1,5 +1,6 @@
 ---
 title: Harry Roberts
+slug: harry-roberts
 first_name: Harry
 last_name: Roberts
 layout: speaker
