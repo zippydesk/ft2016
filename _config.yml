@@ -12,9 +12,10 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://zippydesk.github.io/
 baseurl: /ft2016/
-title: Front-Trends 2016
+title: "Front-Trends 2016"
+name: "Front-Trends 2016"
 author: Paweł Czerski
-description: Front-Trends 2016 May 18-20, 2016 in Warsaw, Poland
+description: "Front-Trends 2016: May 18-20, 2016 in Warsaw, Poland"
 avatar: profile.png
 email: contact@front-trends.com
 twitter: fronttrends
