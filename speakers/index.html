@@ -4,7 +4,7 @@ layout: default
 
 <section class="speakers">
   {% for post in site.posts limit: 40 %}
-    <article id="{{ post.title | slugify: pretty}}">
+    <article id="{{ post.title | slugify: 'pretty' }}">
       <header>
         <h2>{{ post.first_name }} {{ post.last_name }}</h2>
         <h4>{{ post.tagline }}</h4>
