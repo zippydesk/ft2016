@@ -2,8 +2,20 @@
 layout: default
 ---
 
-<ul>
+<section class="speakers">
   {% for post in site.posts limit: 40 %}
-    <li>{{ post.first_name }} {{ post.last_name }}</li>
+    <article>
+      <header>
+        <h2>{{ post.first_name }} {{ post.last_name }}</h2>
+        <h4>{{ post.tagline }}</h4>
+      </header>
+      <div class="bio">
+        {{ post.bio }}
+      </div>
+      <div class="talk">
+        <h3>{{ post.talk_title }}</h3>
+        {{ post.talk_description }}
+      </div>
+    </article>
   {% endfor %}
-</ul>
+</section>
