@@ -14,3 +14,9 @@ a:link {
 a:visited {
   color: #b30024;
 }
+
+h1, h2, h3, h4, h5, h6,
+strong {
+  font-weight: normal;
+  font-family: "Proxima N W02 Bold", sans-serif;
+}
