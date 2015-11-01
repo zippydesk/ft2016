@@ -4,8 +4,10 @@ layout: default
 active: schedule
 ---
 
+{% assign sorted_posts = (site.posts | sort: 'date') %}
+
 <section class="schedule">
-  {% for post in site.posts reversed %}
+  {% for post in sorted_posts %}
     <article id="{{ post.talk_title | slugify }}">
         <time>{{ post.date | date: "%H:%M" }}</time>
         <h2>{{ post.talk_title }}</h2>
