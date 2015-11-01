@@ -20,39 +20,14 @@ strong {
   font-weight: normal;
   font-family: "Proxima N W02 Bold", sans-serif;
 }
-/*
-header + nav ul {
-  display: flex;
-  padding: 0;
-  list-style: none;
-}
 
-header + nav a {
-  display: block;
-  margin-right: 1em;
-  padding: .5em 1em calc(.5em - 2px);
-  text-decoration: none;
-  border-bottom: 2px solid #ff1845;
-}
-*/
 .active a {
   background-color: #ff1845;
   color: #fff;
 }
 
-.speakers picture {
+.speakers picture,
+.speakers img {
     max-width: 10em;
     margin-right: 2em;
-}
-
-.speakers img {
-  max-width: 10em;
-}
-
-@media (min-width: 800px) {
-    
-    .speakers picture {
-        float: left;
-    }
-
 }
