@@ -28,6 +28,5 @@ strong {
 
 .speakers picture,
 .speakers img {
-    max-width: 10em;
-    margin-right: 2em;
+    max-width: 20em;
 }
