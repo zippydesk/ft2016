@@ -10,7 +10,7 @@ active: schedule
 {% for day in speakers_grouped %}
   <section class="schedule">
     <h2>Day</h2>
-    {% assign speakers = (item.speakers | sort: 'last_name') %}
+    {% assign speakers = (item.items | sort: 'last_name') %}
     <ul>
       {% for speaker in speakers %}
         <li id="{{ speaker.talk_title | slugify }}">
