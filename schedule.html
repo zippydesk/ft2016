@@ -9,7 +9,16 @@ active: schedule
 
 {% for day in speakers_grouped %}
   <section class="schedule">
-    <h2>{{ day.name }}</h2>
+    <h2>
+      {% case day.name %}
+        {% when 1 %}
+          Wednesday, May 18
+        {% when 2 %}
+          Thursday, May 19
+        {% when 3 %}
+          Friday, May 20
+      {% endcase %}
+    </h2>
     {% assign speakers = (day.items | sort: 'talk_time') %}
     <ul>
       {% for speaker in speakers %}
