@@ -5,7 +5,7 @@ layout: default
 active: schedule
 ---
 
-{% assign sorted_posts = (site.posts | sort: 'date') %}
+{% assign sorted_posts = (site.posts | group_by: 'talk_day' sort: 'date') %}
 
 <section class="schedule">
   {% for post in sorted_posts %}
