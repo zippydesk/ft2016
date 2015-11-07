@@ -44,13 +44,13 @@ layout: default
   $("input.budget-input").change(function() {
     var updateTotal = function() {
       var total = 0;
-      total += $("#budget-conference").value;
-      total += $("#budget-travel").value;
-      total += $("#budget-hotel").value;
+      total += $("#budget-conference").val();
+      total += $("#budget-travel").val();
+      total += $("#budget-hotel").val();
       
       return total;
     };
-    $("#budget-total").value(updateTotal());
+    $("#budget-total").val(updateTotal());
   }
   );
 </script>
