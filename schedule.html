@@ -1,0 +1,19 @@
+---
+title: Schedule
+permalink: schedule/
+layout: default
+active: schedule
+---
+
+{% assign sorted_posts = (site.posts | sort: 'date') %}
+
+<section class="schedule">
+  {% for post in sorted_posts %}
+    <article id="{{ post.talk_title | slugify }}">
+        <time>{{ post.date | date: "%H:%M" }}</time>
+        <h2>{{ post.talk_title }}</h2>
+        <h3>{{ post.first_name }} {{ post.last_name }}</h3>
+      </div>
+    </article>
+  {% endfor %}
+</section>
