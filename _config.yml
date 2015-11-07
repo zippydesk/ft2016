@@ -18,3 +18,8 @@ avatar: profile.png
 email: contact@front-trends.com
 twitter: fronttrends
 google_analytics: UA-54477891-2
+
+collections:
+  speakers:
+    output: true
+    permalink: /speakers/:path/
