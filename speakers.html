@@ -20,7 +20,7 @@ active: speakers
           <source srcset="{{ site.baseurl }}static/img/speakers/{{ speaker.slug }}.png" media="(min-width: 600px)">
           <img src="{{ site.baseurl }}static/img/speakers/{{ speaker.slug }}.png" alt="{{ speaker.first_name }} {{ speaker.last_name }} photo">
         </picture>
-        <h2>{{ speaker.first_name }} {{ speaker.last_name }} <a href="{{ speaker.url }}">#</a></h2>
+        <h2>{{ speaker.first_name }} {{ speaker.last_name }} <a href="{{ site.baseurl }}{{ speaker.url }}">#</a></h2>
         <h4>{{ speaker.tagline }}</h4>
         <ul>
           {% if speaker.twitter != "" %}<li>Twitter: <a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></li>{% endif %}
