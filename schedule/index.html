@@ -8,7 +8,7 @@ active: schedule
 
 <section class="schedule">
   {% for post in sorted_posts %}
-    <h2>{{ post.date | date: "%d" }}</h2>
+    <h2>{{ post.date | date: "%A" }}</h2>
     <article id="{{ post.talk_title | slugify }}">
         <time>{{ post.date | date: "%H:%M" }}</time>
         <h2>{{ post.talk_title }}</h2>
