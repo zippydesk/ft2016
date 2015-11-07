@@ -9,6 +9,6 @@ active: schedule
 
 {% for day in speakers_grouped %}
   <section class="schedule">
-    <h2>Day</h2>
+    <h2>{{ day.name }}</h2>
   </section>
 {% endfor %}
