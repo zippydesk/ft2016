@@ -16,5 +16,5 @@ twitter: ""
 github: ""
 codepen: ""
 website: ""
-bio: "<p>Bio</p>"
 ---
+<p>Bio</p>
