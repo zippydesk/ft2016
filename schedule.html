@@ -23,7 +23,7 @@ active: schedule
     <ul>
       {% for speaker in speakers %}
         <li>
-          <time>{{ speaker.time }}</time>
+          <time>{{ speaker.talk_time }}</time>
           <h3>{{ speaker.first_name }} {{ speaker.last_name }}</h3>
         </li>
       {% endfor %}
