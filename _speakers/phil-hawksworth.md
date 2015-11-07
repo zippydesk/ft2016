@@ -9,7 +9,7 @@ tagline: ""
 date: 2016-05-18 10:20:00
 timezone: Europe/Warsaw
 talk_day: 1
-talk_time: 09:45
+talk_time: "09:45"
 talk_title: "TBA"
 talk_description: "<p>Talk description…</p>"
 twitter: ""
