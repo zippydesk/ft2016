@@ -44,17 +44,21 @@ layout: default
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script>
+  (function() {
+    var updateTotal = function() {
+      var total = 0;
+      total += parseInt($("#budget-conference").val());
+      total += parseInt($("#budget-travel").val()) || 0;
+      total += parseInt($("#budget-hotel").val()) || 0;
+      
+      return total;
+    };
+      
     $("input.budget-input").change(function() {
-      var updateTotal = function() {
-        var total = 0;
-        total += parseInt($("#budget-conference").val());
-        total += parseInt($("#budget-travel").val()) || 0;
-        total += parseInt($("#budget-hotel").val()) || 0;
-        
-        return total;
-      };
       $("#budget-total").val(updateTotal());
     }
     );
+  }
+  )
   </script>
 </blockquote>
