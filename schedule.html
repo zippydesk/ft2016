@@ -5,15 +5,21 @@ layout: default
 active: schedule
 ---
 
-{% assign sorted_posts = (site.posts | group_by: 'talk_day' sort: 'date') %}
+{% assign speakers_grouped = (site.speakers | group_by: 'talk_day' | sort: 'date') %}
 
-<section class="schedule">
-  {% for post in sorted_posts %}
-    <article id="{{ post.talk_title | slugify }}">
-        <time>{{ post.date | date: "%H:%M" }}</time>
-        <h2>{{ post.talk_title }}</h2>
-        <h3>{{ post.first_name }} {{ post.last_name }}</h3>
-      </div>
-    </article>
-  {% endfor %}
+{% for day in speakers_grouped %}
+  <section class="schedule">
+    <h2>{{ day.name }}</h2>
+    {% assign speakers = (item.speakers | sort: 'last_name') %}
+    <ul>
+      {% for speaker in speakers %}
+        <li id="{{ speaker.talk_title | slugify }}">
+            <time>{{ speaker.date | date: "%H:%M" }}</time>
+            <h2>{{ speaker.talk_title }}</h2>
+            <h3>{{ speaker.first_name }} {{ speaker.last_name }}</h3>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
 </section>
+{% endfor %}
