@@ -10,6 +10,8 @@ active: schedule
   {% for post in sorted_posts %}
     <h2>{{ post.date | date: "%A" }}</h2>
     {% if post.date | date: "%A" == "Wednesday" %}
+    TEST
+    {% endif %}
     <article id="{{ post.talk_title | slugify }}">
         <time>{{ post.date | date: "%H:%M" }}</time>
         <h2>{{ post.talk_title }}</h2>
