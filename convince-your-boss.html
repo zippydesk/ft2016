@@ -44,9 +44,9 @@ layout: default
   $("input.budget-input").change(function() {
     var updateTotal = function() {
       var total = 0;
-      total += $("#budget-conference").val();
-      total += $("#budget-travel").val();
-      total += $("#budget-hotel").val();
+      total += $("#budget-conference").val().parseInt();
+      total += $("#budget-travel").val().parseInt();
+      total += $("#budget-hotel").val().parseInt();
       
       return total;
     };
