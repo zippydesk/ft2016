@@ -5,10 +5,19 @@ layout: default
 active: schedule
 ---
 
-{% assign speakers_grouped = (site.speakers | group_by: 'talk_day' | sort: 'date') %}
+{% assign speakers_grouped = (site.speakers | group_by: 'talk_day' | sort: 'talk_day') %}
 
 {% for day in speakers_grouped %}
   <section class="schedule">
     <h2>{{ day.name }}</h2>
+    {% assign speakers = (day.items | sort: 'talk_time') %}
+    <ul>
+      {% for speaker in speakers %}
+        <li>
+          <time>{{ speaker.time }}</time>
+          <h3>{{ speaker.first_name }} {{ speaker.last_name }}</h3>
+        </li>
+      {% endfor %}
+    </ul>
   </section>
 {% endfor %}
