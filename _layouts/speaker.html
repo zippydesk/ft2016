@@ -1,5 +1,7 @@
 {% include header.html %}
+
 <div class="content">
+  <artticle>
 <h1>{{ page.title }}</h1>
 <picture>
   <source srcset="{{ site.baseurl }}static/img/speakers/{{ page.slug }}.png" media="(min-width: 600px)">
@@ -12,9 +14,11 @@
   {% if page.website != "" %}<li>Website: <a href="{{ page.website }}">{{ page.website_label }}</a></li>{% endif %}
 </ul>
 {{ content }}
-<article class="talk">
+<div class="talk">
   <h3>{{ page.talk_title }}</h3>
   <h4>{{ page.date | date: "%A, %B %d, %H:%M" }}</h4>
   {{ page.talk_description }}</article>
 </div>
+</artticle>
+
 {% include footer.html %}
