@@ -6,11 +6,11 @@
   <img src="{{ site.baseurl }}static/img/speakers/{{ page.slug }}.png" alt="{{ page.first_name }} {{ page.last_name }} photo">
 </picture>
 <ul class="social-media">
-  {% if post.twitter != "" %}<li>Twitter: <a href="https://twitter.com/{{ post.twitter }}">{{ post.twitter }}</a></li>{% endif %}
-  {% if post.github != "" %}<li>Github: <a href="http://github.com/{{ post.github }}">{{ post.github }}</a></li>{% endif %}
-  {% if post.codepen != "" %}<li>Codepen: <a href="http://codepen.io/{{ post.codepen }}">{{ post.codepen }}</a></li>{% endif %}
+  {% if page.twitter != "" %}<li>Twitter: <a href="https://twitter.com/{{ page.twitter }}">{{ page.twitter }}</a></li>{% endif %}
+  {% if page.github != "" %}<li>Github: <a href="http://github.com/{{ page.github }}">{{ page.github }}</a></li>{% endif %}
+  {% if page.codepen != "" %}<li>Codepen: <a href="http://codepen.io/{{ page.codepen }}">{{ page.codepen }}</a></li>{% endif %}
         </ul>
-  {% if post.website != "" %}<li>Website: <a href="{{ post.website }}">{{ post.website_label }}</a></li>{% endif %}
+  {% if page.website != "" %}<li>Website: <a href="{{ page.website }}">{{ page.website_label }}</a></li>{% endif %}
 {{ content }}
 </div>
 {% include footer.html %}
