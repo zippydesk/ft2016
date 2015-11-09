@@ -12,9 +12,10 @@ talk_day: 1
 talk_time: "09:45"
 talk_title: "TBA"
 talk_description: "<p>Talk description…</p>"
-twitter: ""
-github: ""
+twitter: "philhawksworth"
+github: "philhawksworth"
 codepen: ""
-website: ""
+website: "http://hawksworx.com/"
+website_label: "hawksworx.com"
 ---
-<p>Bio</p>
+<p>Web geek, skier, coffee lover, bad dancer. Technical Director at <a href="http://www.rga.com/">R/GA</a></p>
