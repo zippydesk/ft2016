@@ -1,0 +1,81 @@
+{
+  "id": "1",
+  "name": "Wednesday, May 18",
+  "schedule": [
+    {
+      "time": "09:30",
+      "type": "talk"
+      "item": ""
+    },
+    {
+      "time": "09:45",
+      "type": "talk",
+      "item": "responsive-images-from-30000-feet"
+    },
+    {
+      "time": "10:20",
+      "type": "talk",
+      "item": "pixel-bonding"
+    },
+    {
+      "time": "10:55",
+      "type": "break",
+      "item": "coffee-break"
+    },
+    {
+      "time": "11:25",
+      "type": "talk",
+      "item": "talk-tba"
+    },
+    {
+      "time": "12:00",
+      "type": "talk",
+      "item": "talk-tba"
+    },
+    {
+      "time": "12:35",
+      "type": "break",
+      "item": "lunch-break"
+    },
+    {
+      "time": "14:00",
+      "type": "talk",
+      "item": "lightning-talks"
+    },
+    {
+      "time": "14:25",
+      "type": "talk",
+      "item": "talk-tba"
+    },
+    {
+      "time": "15:00",
+      "type": "break",
+      "item": "coffee-break"
+    },
+    {
+      "time": "15:30",
+      "type": "talk",
+      "item": "talk-tba"
+    },
+    {
+      "time": "16:05",
+      "type": "talk",
+      "item": "talk-tba"
+    },
+    {
+      "time": "16:40",
+      "type": "break",
+      "item": "coffee-break"
+    },
+    {
+      "time": "17:00",
+      "type": "panel",
+      "item": "browser-panel"
+    },
+    {
+      "time": "18:15",
+      "type": "break",
+      "item", "end-of-day"
+    }
+    ]
+}
