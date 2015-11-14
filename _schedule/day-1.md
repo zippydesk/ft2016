@@ -7,7 +7,7 @@ items:
 - talk-1
 - talk-2
 - coffee-break-1
-- talk-2
+- responsive-images-from-30000-feet
 - talk-3
 - lunch-break-1
 - talk-4
