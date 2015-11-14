@@ -5,13 +5,13 @@ layout: default
 active: schedule
 ---
 
-<hr/>
-<ul>
-{% for speaker in site.data.speakers %}
-    <li>{{ speaker.name }}</li>
+{% assign days_grouped = (site.talks | group_by: 'day' | sort: 'time') %}
+
+{% for day in days_grouped %}
+    <h2>{{ day.name }}</h2>
 {% endfor %}
-</ul>
-<hr/>
+
+<br/>
 
 {% assign speakers_grouped = (site.speakers | group_by: 'talk_day' | sort: 'talk_day') %}
 
