@@ -6,7 +6,6 @@ active: schedule
 ---
 
 {% assign talks_grouped = (site.talks | group_by: 'day' | sort: 'time') %}
-{% assign speakers = (site.speakers | sort: 'last_name') %}
 
 {% for day in talks_grouped %}
   <section class="schedule">
