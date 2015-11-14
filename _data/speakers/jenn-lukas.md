@@ -5,7 +5,7 @@ slug: jenn-lukas
 first-name: Jenn
 last-name: Lukas
 tagline: "Standards-lovin’ Front-end Developer"
-date:"2016-05-18 11:50:00
+date: 2016-05-18 11:50:00
 twitter": jennlukas
 github": Jenn
 codepen: ""
