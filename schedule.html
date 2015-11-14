@@ -16,6 +16,7 @@ active: schedule
       {% for talk in talks %}
         <li>
           <time>{{ talk.time }}</time>
+          <h2>{{ talk.name }}</h2>
         </li>
       {% endfor %}
     </ul>
