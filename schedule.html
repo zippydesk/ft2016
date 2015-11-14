@@ -8,7 +8,7 @@ active: schedule
 {% assign talks_grouped = (site.talks | group_by: 'day' | sort: 'time') %}
 
 {% for talk in talks_grouped %}
-    <h2>{{ talk.name }}</h2>
+    <h2>{{ talk.time }}</h2>
 {% endfor %}
 
 <hr/>
