@@ -23,3 +23,9 @@ collections:
   speakers:
     output: true
     permalink: /speakers/:path/
+  schedule:
+    output: true
+    permalink: /schedule/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
