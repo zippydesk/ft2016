@@ -7,25 +7,15 @@ active: schedule
 
 {% assign talks_grouped = (site.talks | group_by: 'day' | sort: 'time') %}
 
-{% for talk in talks_grouped %}
-    <h2>{{ talk.items }}</h2>
-{% endfor %}
-
-<hr/>
-
-{% assign speakers_grouped = (site.speakers | group_by: 'talk_day' | sort: 'talk_day') %}
-
-{% for day in speakers_grouped %}
+{% for day in talks_grouped %}
   <section class="schedule">
-    {% assign day_name = site.data.days[day.talk_day] %}
+    {% assign day_name = site.data.schedule[day.name] %}
     <h2>{{ day_name.name }}</h2>
-    {% assign speakers = (day.items | sort: 'talk_time') %}
+    {% assign talks = (day.items | sort: 'time') %}
     <ul>
-      {% for speaker in speakers %}
+      {% for talk in talks %}
         <li>
-          <time>{{ speaker.talk_time }}</time>
-          <h3>{{ speaker.first_name }} {{ speaker.last_name }}</h3>
-          <h4>{{ speaker.talk_title }}</h4>
+          <time>{{ talk.time }}</time>
         </li>
       {% endfor %}
     </ul>
