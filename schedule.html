@@ -6,9 +6,11 @@ active: schedule
 ---
 
 <hr/>
-<script>
-  console.log(ID_TALK);
-</script>
+<ul>
+{% for day in site.data.schedule %}
+    <li>{{ day.name }}</li>
+{% endfor %}
+</ul>
 <hr/>
 
 {% assign speakers_grouped = (site.speakers | group_by: 'talk_day' | sort: 'talk_day') %}
