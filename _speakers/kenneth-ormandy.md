@@ -19,4 +19,4 @@ website: "http://kennethormandy.com"
 website_label: "kennethormandy.com"
 ---
 
-<p>Kenneth Ormandy is a designer at Surge.sh. He organises <a href="http://typebrigade.com/">Type Brigade</a>, Vancouver’s typography meetup, and contributes to the Lost Type Co-op.</p>
+<p>Kenneth is a designer at <a href="http://surge.sh">Surge.sh</a>. He organises <a href="http://typebrigade.com/">Type Brigade</a>, Vancouver’s typography meetup, and contributes to the Lost Type Co-op.</p>
