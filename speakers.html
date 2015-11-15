@@ -25,6 +25,7 @@ active: speakers
         <ul>
           {% if speaker.twitter != "" %}<li>Twitter: <a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></li>{% endif %}
           {% if speaker.github != "" %}<li>Github: <a href="http://github.com/{{ speaker.github }}">{{ speaker.github }}</a></li>{% endif %}
+          {% if speaker.codepen != "" %}<li>Codepen: <a href="http://codepen.io/{{ speaker.codepen }}">{{ speaker.codepen }}</a></li>{% endif %}
         </ul>
       </header>
       <div class="bio">
