@@ -9,7 +9,7 @@ active: schedule
 
 {% for day in talks_grouped %}
   <section class="schedule">
-    {% assign day_id = day.name %}
+    {% assign day_id = day.items[0].talk_day %}
     <h2>{{ site.data.days[day_id].name }}</h2>
     {% assign talks = (day.items | sort: 'talk_time') %}
     <ul>
