@@ -5,7 +5,7 @@ layout: default
 active: schedule
 ---
 
-{% assign talks_grouped = (site.speakers | group_by: 'talk_day' | sort: 'time') %}
+{% assign talks_grouped = (site.speakers | group_by: 'talk_day' | sort: 'talk_day') %}
 
 {% for day in talks_grouped %}
   <section class="schedule">
