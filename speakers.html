@@ -14,11 +14,11 @@ active: speakers
 
 <section class="speakers">
   {% for speaker in sorted_speakers %}
-    <article id="{{ speaker.slug }}">
+    <article id="{{ speaker.title | slugify }}">
       <header>
         <picture>
-          <source srcset="{{ site.baseurl }}static/img/speakers/{{ speaker.slug }}.png" media="(min-width: 600px)">
-          <img src="{{ site.baseurl }}static/img/speakers/{{ speaker.slug }}.png" alt="{{ speaker.first_name }} {{ speaker.last_name }} photo">
+          <source srcset="{{ site.baseurl }}static/img/speakers/{{ speaker.title | slugify }}.png" media="(min-width: 600px)">
+          <img src="{{ site.baseurl }}static/img/speakers/{{ speaker.title | slugify }}.png" alt="{{ speaker.first_name }} {{ speaker.last_name }} photo">
         </picture>
         <h2><a href="{{ site.baseurl }}{{ speaker.url }}">{{ speaker.first_name }} {{ speaker.last_name }}</a></h2>
         <h4>{{ speaker.tagline }}</h4>
