@@ -8,7 +8,7 @@ active: speakers
 {% assign sorted_speakers = (site.speakers | sort: 'last_name') %}
 <ul>
   {% for speaker in sorted_speakers %}
-    <li><a href="#{{ speaker.name | slugify }}">{{ speaker.first_name }} {{ speaker.last_name }}</a></li>
+    <li><a href="#{{ speaker.title | slugify }}">{{ speaker.first_name }} {{ speaker.last_name }}</a></li>
   {% endfor %}
 </ul>
 
