@@ -14,11 +14,11 @@ active: schedule
     {% assign talks = (day.items | sort: 'talk_time') %}
     <ul>
       {% for talk in talks %}
-        {% assign talk_title = talk.talk_title %}
+        {% assign talk_name = talk.name %}
         <li>
           <time>{{ talk.talk_time }}</time>
-          <h3>{{ talk_title }} <a class="permalink" href="{{ site.baseurl }}talk/{{ talk_title | slugify }}">#</a></h3>
-          <h4>{{ talk.name }}</h4>
+          <h3>{{ talk_title }}</h3>
+          <h4>{{ talk_name }} <a class="permalink" href="{{ site.baseurl }}speakers/{{ talk_name | slugify }}">#</a></h4>
           <div class="description">{{ talk.talk_description }}</div>
         </li>
       {% endfor %}
