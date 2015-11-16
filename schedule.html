@@ -17,7 +17,7 @@ active: schedule
         {% assign talk_name = talk.name %}
         <li>
           <time>{{ talk.talk_time }}</time>
-          <h3>{{ talk_title }}</h3>
+          <h3>{{ talk.talk_title }}</h3>
           <h4>{{ talk_name }} <a class="permalink" href="{{ site.baseurl }}speakers/{{ talk_name | slugify }}">#</a></h4>
           <div class="description">{{ talk.talk_description }}</div>
         </li>
