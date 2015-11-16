@@ -1,5 +1,5 @@
 ---
-title: Tammie Lister
+name: Tammie Lister
 layout: speaker
 slug: tammie-lister
 first_name: Tammie

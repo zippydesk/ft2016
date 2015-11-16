@@ -1,5 +1,5 @@
 ---
-title: Mariko Kosaka
+name: Mariko Kosaka
 layout: speaker
 slug: mariko-kosaka
 first_name: Mariko

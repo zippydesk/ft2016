@@ -1,5 +1,5 @@
 ---
-title: Claudina Sarahe
+name: Claudina Sarahe
 layout: speaker
 slug: claudina-sarahe
 first_name: Claudina

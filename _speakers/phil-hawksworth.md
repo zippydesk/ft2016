@@ -1,5 +1,5 @@
 ---
-title: Phil Hawksworth
+name: Phil Hawksworth
 layout: speaker
 slug: phil-hawksworth
 first_name: Phil

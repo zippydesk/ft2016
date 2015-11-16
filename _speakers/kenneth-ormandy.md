@@ -1,5 +1,5 @@
 ---
-title: Kenneth Ormandy
+name: Kenneth Ormandy
 layout: speaker
 slug: kenneth-ormandy
 first_name: Kenneth
