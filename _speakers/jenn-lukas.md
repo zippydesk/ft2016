@@ -1,5 +1,5 @@
 ---
-title: Jenn Lukas
+name: Jenn Lukas
 layout: speaker
 slug: jenn-lukas
 first_name: Jenn
