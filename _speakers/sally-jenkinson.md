@@ -2,7 +2,7 @@
 name: Sally Jenkinson
 layout: speaker
 slug: sally-jenkinson
-first_name: sally
+first_name: Sally
 last_name: Jenkinson
 photo: "http://"
 tagline: ""
