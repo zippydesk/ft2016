@@ -1,5 +1,5 @@
 ---
-name: Brenna O'Brien
+name: "Brenna O'Brien"
 layout: speaker
 slug: brenna-obrien
 first_name: "Brenna"
