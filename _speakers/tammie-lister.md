@@ -5,7 +5,7 @@ slug: tammie-lister
 first_name: Tammie
 last_name: Lister
 photo: "http://"
-tagline: ""
+tagline: "WordPress contributor, passionate about Open Source"
 date: 2016-05-19 10:20:00
 timezone: Europe/Warsaw
 talk_day: 2
