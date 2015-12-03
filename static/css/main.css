@@ -25,17 +25,17 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 1.5em;
+  margin: 0 0 1.5rem;
 }
 
 p {
-  margin: 0 0 1.5em;
+  margin: 0 0 1.5rem;
 }
 
 blockquote {
   margin: 0;
-  padding: 2em 4em;
-  border: .5em solid #eee;
+  padding: 2rem 4rem;
+  border: 1px solid #eee;
 }
 
 .speakers picture,
