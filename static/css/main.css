@@ -33,6 +33,8 @@ blockquote {
     max-width: 100px;
 }
 
-body.schedule .description {
-  display: none;
+.speakers ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
