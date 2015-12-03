@@ -40,7 +40,9 @@ blockquote {
 
 .speakers picture,
 .speakers img {
-    max-width: 100px;
+  float: left;
+  max-width: 100px;
+  margin-right: 1rem;
 }
 
 .splash .speakers ul {
