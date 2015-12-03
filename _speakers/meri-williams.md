@@ -5,7 +5,7 @@ slug: meri-williams
 first_name: Meri
 last_name: Williams
 photo: ""
-tagline: ""
+tagline: "A geek, a manager, and a manager of geeks. Baker, gamer, surfer"
 date: 2016-05-18 11:50:00
 timezone: Europe/Warsaw
 talk_day: 2
