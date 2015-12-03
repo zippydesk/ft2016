@@ -5,7 +5,7 @@ slug: sally-jenkinson
 first_name: Sally
 last_name: Jenkinson
 photo: "http://"
-tagline: ""
+tagline: "Freelance technical consultant, comic book fan, and an Xbox player"
 date: 2016-05-18 11:50:00
 timezone: Europe/Warsaw
 talk_day: 1
