@@ -33,8 +33,14 @@ blockquote {
     max-width: 100px;
 }
 
-.speakers ul {
+.splash .speakers ul {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.splash .speakers li {
+  width: 50%;
 }
