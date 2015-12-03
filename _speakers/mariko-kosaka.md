@@ -5,7 +5,7 @@ slug: mariko-kosaka
 first_name: Mariko
 last_name: Kosaka
 photo: "http://"
-tagline: ""
+tagline: "Engineer who loves data and knitting, JavaScript developer, and dev tool maker"
 date: 2016-05-18 12:25:00
 timezone: Europe/Warsaw
 talk_day: 1
