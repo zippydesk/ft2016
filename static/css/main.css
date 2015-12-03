@@ -57,10 +57,10 @@ blockquote {
   width: 50%;
 }
 
-.splash .speakers h3 {
+.splash .speakers li h3 {
   margin: 0;
 }
 
-.speakers p {
+.speakers li p {
     padding: 0 1rem 0 calc(100px + 1rem);
 }
