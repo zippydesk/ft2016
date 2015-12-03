@@ -5,7 +5,7 @@ slug: claudina-sarahe
 first_name: Claudina
 last_name: Sarahe
 photo: "http://"
-tagline: ""
+tagline: "Doer, dreamer. Front-end systems designer & architect."
 date: 2016-05-18 11:50:00
 timezone: Europe/Warsaw
 talk_day: 1
@@ -19,4 +19,4 @@ website: "http://itsmisscs.me/"
 website_label: "itsmisscs.me"
 ---
 
-<p>Bio…</p>
+<p>Doer, dreamer. Front-end systems designer & architect.</p>
