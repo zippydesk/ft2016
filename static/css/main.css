@@ -34,7 +34,7 @@ blockquote {
 
 .speakers picture,
 .speakers img {
-    max-width: 15em;
+    max-width: 100px;
 }
 
 body.schedule .description {
