@@ -58,3 +58,7 @@ blockquote {
 .splash .speakers h3 {
   margin: 0;
 }
+
+.speakers p {
+    padding: 0 1rem 0 calc(100px + 1rem);
+}
