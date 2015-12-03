@@ -44,3 +44,8 @@ blockquote {
 .splash .speakers li {
   width: 50%;
 }
+
+.splash .speakers h3,
+.splash .speakers p {
+  margin: 0;
+}
