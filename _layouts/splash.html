@@ -11,40 +11,12 @@
   <ul>
     {% for speaker in sorted_speakers %}
       <li>
-        <h3><a href="#{{ speaker.name | slugify }}">{{ speaker.first_name }} {{ speaker.last_name }}</a></h3>
+        <h3>{{ speaker.first_name }} {{ speaker.last_name }}</h3>
         {% if speaker.twitter != "" %}<p><a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></p>{% endif %}
         <p>{{ speaker.tagline }}</p>
       </li>
     {% endfor %}
   </ul>
-  
-  <section class="speakers">
-    {% for speaker in sorted_speakers %}
-      <article id="{{ speaker.name | slugify }}">
-        <header>
-          <picture>
-            <source srcset="{{ site.baseurl }}/static/img/speakers/{{ speaker.name | slugify }}.png" media="(min-width: 600px)">
-            <img src="{{ site.baseurl }}/static/img/speakers/{{ speaker.name | slugify }}.png" alt="{{ speaker.first_name }} {{ speaker.last_name }} photo">
-          </picture>
-          <h2><a href="{{ site.baseurl }}{{ speaker.url }}">{{ speaker.first_name }} {{ speaker.last_name }}</a></h2>
-          <h4>{{ speaker.tagline }}</h4>
-          <ul>
-            {% if speaker.twitter != "" %}<li>Twitter: <a href="https://twitter.com/{{ speaker.twitter }}">{{ speaker.twitter }}</a></li>{% endif %}
-            {% if speaker.github != "" %}<li>Github: <a href="http://github.com/{{ speaker.github }}">{{ speaker.github }}</a></li>{% endif %}
-            {% if speaker.codepen != "" %}<li>Codepen: <a href="http://codepen.io/{{ speaker.codepen }}">{{ speaker.codepen }}</a></li>{% endif %}
-          </ul>
-        </header>
-        <div class="bio">
-          {{ speaker.content }}
-        </div>
-        <!--div class="talk">
-          <h3>{{ speaker.talk_title }}</h3>
-          <h4>{{ speaker.date | date: "%A, %B %d, %H:%M" }}</h4>
-          {{ speaker.talk_description }}
-        </div-->
-      </article>
-    {% endfor %}
-  </section>
   
 {{ content }}
 </div>
