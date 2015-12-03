@@ -5,7 +5,7 @@ slug: kenneth-ormandy
 first_name: Kenneth
 last_name: Ormandy
 photo: "http://"
-tagline: ""
+tagline: "Designer, organizes Vancouver's typography meetup"
 date: 2016-05-18 11:50:00
 timezone: Europe/Warsaw
 talk_day: 1
