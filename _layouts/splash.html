@@ -23,7 +23,7 @@
       {% for speaker in sorted_speakers %}
         <li>
           <img src="{{ site.baseurl }}/static/img/speakers/{{ speaker.name | slugify }}.png" alt="{{ speaker.first_name }} {{ speaker.last_name }} photo">
-          <h3><a href="{{ page.baseurl }}/speakers{{ speaker.slug }}">{{ speaker.first_name }} {{ speaker.last_name }}</a></h3>
+          <h3><a href="{{ page.baseurl }}/speakers/{{ speaker.slug }}">{{ speaker.first_name }} {{ speaker.last_name }}</a></h3>
           {% if speaker.twitter != "" %}<p><a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></p>{% endif %}
           <p>{{ speaker.tagline }}</p>
         </li>
