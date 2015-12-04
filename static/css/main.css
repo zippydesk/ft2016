@@ -68,7 +68,7 @@ blockquote {
 .splash .intro p,
 .splash .intro ul {
   margin: 0;
-  padding: 0 50px 0 150px;
+  padding: 0 50px 1.5rem 150px;
   color: #fff;
   background: #eb3f2a;
   background-blend-mode: multiply;
@@ -92,4 +92,8 @@ blockquote {
 
 .splash .intro li:not(:first-child) {
     margin-left: 5em;
+}
+
+.splash .intro p:first-child {
+  
 }
