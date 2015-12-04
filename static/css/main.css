@@ -61,6 +61,11 @@ blockquote {
   margin: 0;
 }
 
-.speakers li p {
+.splash .speakers li p {
     padding: 0 1rem 0 calc(100px + 1rem);
+}
+
+.splash .intro {
+  background: #eb3f2a;
+  background-blend-mode: multiply;
 }
