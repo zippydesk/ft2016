@@ -169,3 +169,29 @@ nav ul {
 .splash .intro p:first-child {
   
 }
+
+/*
+  Registration box
+  */
+
+.splash section.registration-box {
+  position: absolute;
+  margin-top: -18em;
+  margin-left: 80px;
+  text-align: right;
+}
+
+.splash section.registration-box p:first-of-type a {
+  display: block;
+  background: #4e2945;
+  padding: 2em 4em;
+}
+
+.splash section.registration-box p:first-of-type a span {
+  display: block;
+  font-size: 14px;
+}
+
+.splash section.registration-box p:last-of-type {
+  padding: 0 4em 0 0;
+}
