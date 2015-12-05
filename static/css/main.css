@@ -50,8 +50,19 @@ blockquote {
 .splash header {
   position: absolute;
   width: 245px;
+  height: 260px;
+  padding-top: 5rem;
   background: #eb3f2a;
   color: #fff;
+  text-align: right;
+}
+
+.splash h1, .splash h2 {
+  font-weight: 400;
+}
+
+.splash h2 {
+  font-size: 20px;
 }
 
 .splash header a {
@@ -76,9 +87,9 @@ nav ul {
 }
 
 .splash nav {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   text-align: right;
-  line-height: 1em;
+  line-height: 1rem;
 }
 
 .splash nav ul {
@@ -90,23 +101,23 @@ nav ul {
 }
 
 .splash nav a {
-  padding: 0 1em;
+  padding: 0 1rem;
   text-decoration: none;
 }
 
 .splash nav a {
-  padding: 1.5em 1em;
+  padding: 1.5rem 1rem;
   text-decoration: none;
   display: block;
 }
 
 .splash nav .register {
-    margin-left: 3em;
+    margin-left: 3rem;
 }
 
 .splash nav .register a {
   background: #4e2945;
-  padding: 1.5em 2em;
+  padding: 1.5rem 2rem;
   color: #fff;
 }
 
