@@ -313,6 +313,10 @@ nav ul {
   margin-top: calc(32px + 1rem);
 }
 
+.splash section.sponsorship .previous-supporters img {
+  width: 100px;
+}
+
 /*
   Generic content
   */
