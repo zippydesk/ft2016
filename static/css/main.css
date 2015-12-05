@@ -6,7 +6,7 @@
 
 body {
   margin: auto;
-  padding: 1em;
+  padding: 0;
   background-color: #fff;
   color: #333;
   font-size: 100%;
@@ -192,7 +192,7 @@ nav ul {
 
 .splash section.registration-box {
   position: absolute;
-  width: 370px;
+  width: 390px;
   margin-top: -14em;
   text-align: right;
 }
