@@ -261,11 +261,20 @@ nav ul {
   padding: 0 4rem 0 0;
 }
 
+/*
+  Sponsorship
+  */
+  
 .splash section.sponsorship,
 .splash footer {
   margin: 0 -2rem;
   padding: 3rem;
   background: #f4f4f4;
+}
+
+.splash section.sponsorship h2 {
+  font-size: 32px;
+  font-weight: 400;
 }
 
 /*
