@@ -121,7 +121,7 @@ nav ul {
 
 .splash section.speakers li p:not(:first-of-type) {
   background: #f9f5f2;
-  margin: -3em 25px 1em;
+  margin: -3.2em 25px 1em;
   padding: 3em 1em 1em calc(75px + 1rem);
   font-size: 14px;
 }
