@@ -297,6 +297,21 @@ nav ul {
   font-weight: 400;
 }
 
+.splash section.sponsorship {
+  display: flex;
+}
+
+.splash section.sponsorship .become-a-sponsor {
+  width: 50%;
+  margin-left: 50px;
+}
+
+.splash section.sponsorship .previous-supporters {
+  width: calc(50% - 150px);
+  margin-left: 100px;
+  margin-top: calc(32px + 1rem);
+}
+
 /*
   Generic content
   */
