@@ -275,7 +275,7 @@ section.page-content article:nth-child(2n):before {
   top: 4rem;
 }
 
-.page-content article:nth-child(2n) h3:first-of-type {
+.page-content article:nth-child(2n+1):not(:first-of-type) h2:first-of-type {
   background: #eb3f2a;
   color: #fff;
   padding: 1rem 25px;
