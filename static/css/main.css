@@ -281,3 +281,14 @@ section.page-content article:nth-child(2n):before {
   padding: 1rem 25px;
   margin-right: -75px;
 }
+
+.page-content p.images {
+  position: absolute;
+  top: 1;
+  right: 0;
+}
+
+.page-content p.images img {
+  display: block;
+  width: 365px;
+}
