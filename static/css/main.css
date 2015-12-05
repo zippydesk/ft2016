@@ -144,19 +144,15 @@ nav ul {
 
 .splash section.speakers li:nth-of-type(4n+2),
 .splash section.speakers li:nth-of-type(4n+3) {
-  width: calc(50% - 2rem);
+  width: calc(50% - 3rem);
 }
 
 .splash section.speakers li:nth-of-type(4n+2) {
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .splash section.speakers li:nth-of-type(4n+3) {
-  margin-right: 2rem;
-}
-
-.splash section.speakers li:nth-of-type(4n+3) {
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .splash section.speakers li h3 {
@@ -172,7 +168,7 @@ nav ul {
 
 .splash section.speakers li p:not(:first-of-type) {
   background: #f9f5f2;
-  margin: -3.2em 25px 1em;
+  margin: -3.2em 0 1em 25px;
   padding: 3em 1em 1em calc(75px + 1rem);
   font-size: 14px;
 }
