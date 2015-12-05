@@ -195,6 +195,8 @@ nav ul {
 
 .splash section.intro p:first-child {
   padding-top: 75px;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .splash section.intro ul {
