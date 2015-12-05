@@ -329,6 +329,7 @@ section.page-content p.images img {
 section.page-content article p.button {
   top: auto;
   bottom: 2.5rem;
+  z-index: 1;
 }
 
 a.button {
