@@ -46,6 +46,13 @@ h2, h3 {
   font-weight: 900;
 }
 
+a.button {
+  background: #4e2945;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
 /*
   Header
   */
@@ -254,6 +261,13 @@ nav ul {
   padding: 0 4rem 0 0;
 }
 
+.splash section.sponsorship,
+.splash footer {
+  margin: 0 -2rem;
+  padding: 3rem;
+  background: #f4f4f4;
+}
+
 /*
   Generic content
   */
@@ -331,13 +345,6 @@ section.page-content article p.button {
   top: auto;
   bottom: 2.5rem;
   z-index: 1;
-}
-
-a.button {
-  background: #4e2945;
-  padding: 1.5rem 2rem;
-  color: #fff;
-  text-decoration: none;
 }
 
 /*
