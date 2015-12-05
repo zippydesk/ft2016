@@ -64,6 +64,7 @@ nav ul {
 
 .splash nav a {
   padding: .2em 1em;
+  text-decoration: none;
 }
 
 .splash .speakers ul {
@@ -93,6 +94,10 @@ nav ul {
   color: #fff;
   background: #eb3f2a;
   background-blend-mode: multiply;
+}
+
+.splash .intro p:first-child {
+  padding-top: 75px;
 }
 
 .splash .intro ul {
