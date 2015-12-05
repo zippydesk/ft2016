@@ -185,6 +185,8 @@ nav ul {
   display: block;
   background: #4e2945;
   padding: 2em 4em;
+  color: #fff;
+  font-size: 24px;
 }
 
 .splash section.registration-box p:first-of-type a span {
