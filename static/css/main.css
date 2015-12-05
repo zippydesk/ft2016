@@ -38,6 +38,10 @@ blockquote {
   border: 1px solid #eee;
 }
 
+/*
+  Navigation
+  */
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -51,6 +55,7 @@ nav ul {
 }
 
 .splash nav {
+  margin-bottom: 1em;
   text-align: right;
   line-height: 80px;
 }
@@ -68,7 +73,27 @@ nav ul {
   text-decoration: none;
 }
 
-.splash .speakers ul {
+.splash nav a {
+  padding: 1.5em 1em;
+  text-decoration: none;
+  display: block;
+}
+
+.splash nav .register {
+    margin-left: 3em;
+}
+
+.splash nav .register a {
+  background: #4e2945;
+  padding: 1.5em 2em;
+  color: #fff;
+}
+
+/*
+  Speaker list
+  */
+
+.splash section.speakers ul {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
@@ -76,20 +101,20 @@ nav ul {
   padding: 0;
 }
 
-.splash .speakers li {
+.splash section.speakers li {
   width: 50%;
 }
 
-.splash .speakers li h3 {
+.splash section.speakers li h3 {
   margin: 0;
 }
 
-.splash .speakers li p {
+.splash section.speakers li p {
     padding: 0 1rem 0 calc(100px + 1rem);
 }
 
-.splash .intro p,
-.splash .intro ul {
+.splash section.intro p,
+.splash section.intro ul {
   margin: 0;
   padding: 0 115px 1.5rem 115px;
   color: #fff;
@@ -101,15 +126,15 @@ nav ul {
   padding-top: 75px;
 }
 
-.splash .intro ul {
+.splash section.intro ul {
   padding-bottom: 75px;
 }
 
-.splash .intro a {
+.splash section.intro a {
   color: #fff;
 }
 
-.splash .intro ul {
+.splash section.intro ul {
   list-style-type: none;
 }
 
