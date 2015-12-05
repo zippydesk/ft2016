@@ -21,11 +21,11 @@ body {
 }
 
 a {
-  color: #ed4819;
+  color: #eb3f2a;
 }
 
 .active a {
-  background-color: #ed4819;
+  background-color: #eb3f2a;
   color: #fff;
 }
 
@@ -50,7 +50,7 @@ blockquote {
 .splash header {
   position: absolute;
   width: 245px;
-  background: #ed4819;
+  background: #eb3f2a;
   color: #fff;
 }
 
@@ -105,7 +105,7 @@ nav ul {
 }
 
 .splash nav .register a {
-  background: #ed4819;
+  background: #4e2945;
   padding: 1.5em 2em;
   color: #fff;
 }
@@ -136,7 +136,7 @@ nav ul {
 }
 
 .splash section.speakers li p:not(:first-of-type) {
-  background: #f9f5f2;
+  background: #eb3f2a;
   margin: -3.2em 25px 1em;
   padding: 3em 1em 1em calc(75px + 1rem);
   font-size: 14px;
@@ -199,7 +199,7 @@ nav ul {
 
 .splash section.registration-box p:first-of-type a {
   display: inline-block;
-  background: #ed4819;
+  background: #4e2945;
   padding: 2rem 4rem;
   color: #fff;
   font-size: 32px;
