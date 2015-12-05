@@ -201,7 +201,7 @@ nav ul {
   padding: 0 1rem 0 calc(100px + 1rem);
 }
 
-.splash section.speakers o p.tagline {
+.splash section.speakers p.tagline {
   font-size: 14px;
 }
 
