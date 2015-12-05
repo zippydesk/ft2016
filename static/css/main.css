@@ -172,6 +172,11 @@ nav ul {
   z-index: -1;
 }
 
+.splash section.speakers li:nth-of-type(4n+2)::before,
+.splash section.speakers li:nth-of-type(4n+3)::before {
+  height: 6rem;
+}
+
 .splash section.speakers li:nth-of-type(4n+2),
 .splash section.speakers li:nth-of-type(4n+3) {
   width: calc(50% - 5rem);
@@ -194,6 +199,10 @@ nav ul {
 .splash section.speakers li p {
   margin-bottom: 1rem;
   padding: 0 1rem 0 calc(100px + 1rem);
+}
+
+.splash section.speakers o p.tagline {
+  font-size: 14px;
 }
 
 /*
