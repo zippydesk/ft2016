@@ -304,4 +304,5 @@ section.page-content p.images {
 section.page-content p.images img {
   display: block;
   width: 365px;
+  margin-bottom: 50px;
 }
