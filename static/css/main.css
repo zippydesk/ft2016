@@ -137,8 +137,27 @@ nav ul {
   width: 50%;
 }
 
+.splash section.speakers li:nth-of-type(4n+2),
+.splash section.speakers li:nth-of-type(4n+3) {
+  width: calc(50% - 2rem);
+}
+
+.splash section.speakers li:nth-of-type(4n+2) {
+  margin-left: 2rem;
+}
+
+.splash section.speakers li:nth-of-type(4n+3) {
+  margin-right: 2rem;
+}
+
+.splash section.speakers li:nth-of-type(4n+3) {
+  margin-right: 2rem;
+}
+
 .splash section.speakers li h3 {
   margin: 0;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .splash section.speakers li p {
