@@ -339,3 +339,21 @@ a.button {
   color: #fff;
   text-decoration: none;
 }
+
+/*
+  Footer
+  */
+
+.splash footer nav {
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.splash footer nav li {
+  display: list-item;
+}
+
+.splash footer nav a {
+  padding: 0;
+  text-decoration: underline;
+}
