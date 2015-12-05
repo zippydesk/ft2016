@@ -38,11 +38,32 @@ blockquote {
   border: 1px solid #eee;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
 .speakers picture,
 .speakers img {
   float: left;
   max-width: 100px;
   margin-right: 1rem;
+}
+
+.splash nav {
+  text-align: right;
+}
+
+.splash nav ul {
+  list-style-type: none;
+}
+
+.splash nav li {
+  display: inline-block;
+}
+
+.splash nav a {
+  padding: .2em 1em;
 }
 
 .splash .speakers ul {
