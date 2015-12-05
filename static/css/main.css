@@ -285,8 +285,7 @@ nav ul {
   Sponsorship
   */
   
-.splash section.sponsorship,
-.splash footer {
+.splash section.sponsorship {
   margin: 0 -2rem;
   padding: 3rem;
   background: #f4f4f4;
@@ -396,15 +395,5 @@ section.page-content article p.button {
   */
 
 .splash footer nav {
-  line-height: 1.5rem;
   text-align: left;
-}
-
-.splash footer nav li {
-  display: list-item;
-}
-
-.splash footer nav a {
-  padding: 0;
-  text-decoration: underline;
 }
