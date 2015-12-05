@@ -52,6 +52,7 @@ nav ul {
 
 .splash nav {
   text-align: right;
+  line-height: 80px;
 }
 
 .splash nav ul {
@@ -63,7 +64,7 @@ nav ul {
 }
 
 .splash nav a {
-  padding: .2em 1em;
+  padding: 0 1em;
   text-decoration: none;
 }
 
