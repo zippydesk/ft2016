@@ -176,7 +176,7 @@ nav ul {
 
 .splash section.registration-box {
   position: absolute;
-  margin-top: -18em;
+  margin-top: -14em;
   margin-left: 80px;
   text-align: right;
 }
@@ -184,7 +184,7 @@ nav ul {
 .splash section.registration-box p:first-of-type a {
   display: block;
   background: #4e2945;
-  padding: 3rem 5em;
+  padding: 3rem 5rem;
   color: #fff;
   font-size: 32px;
   text-decoration: none;
