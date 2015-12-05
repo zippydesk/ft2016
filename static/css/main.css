@@ -140,6 +140,7 @@ nav ul {
 
 .splash section.speakers li {
   width: 50%;
+  margin-bottom: 1rem;
 }
 
 .splash section.speakers li:nth-of-type(4n+2),
