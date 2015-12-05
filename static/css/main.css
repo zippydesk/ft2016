@@ -155,8 +155,21 @@ nav ul {
 }
 
 .splash section.speakers li {
+  position: relative;
   width: 50%;
   margin-bottom: 1rem;
+}
+
+.splash section.speakers li::before {
+  display: block;
+  position: absolute;
+  top: 1.2rem;
+  width: 100%;
+  height: 7rem;
+  margin-left: 2rem;
+  content: "";
+  background: #f9f5f2;
+  z-index: -1;
 }
 
 .splash section.speakers li:nth-of-type(4n+2),
@@ -179,15 +192,8 @@ nav ul {
 }
 
 .splash section.speakers li p {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   padding: 0 1rem 0 calc(100px + 1rem);
-}
-
-.splash section.speakers li p:not(:first-of-type) {
-  background: #f9f5f2;
-  margin: -3.2em 0 1em 25px;
-  padding: 3em 1em 1em calc(75px + 1rem);
-  font-size: 14px;
 }
 
 /*
