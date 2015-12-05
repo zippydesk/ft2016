@@ -61,7 +61,7 @@ h2, h3 {
   text-align: right;
 }
 
-.splash h1, .splash h2 {
+.splash header h1, .splash header h2 {
   font-weight: 400;
   color: #fff;
 }
