@@ -309,7 +309,7 @@ section.page-content article:nth-child(2n) {
 section.page-content article:nth-child(2n):before {
   display: block;
   content: "";
-  width: 450px;
+  width: 400px;
   height: 50%;
   position: absolute;
   background: #e9e9e9;
