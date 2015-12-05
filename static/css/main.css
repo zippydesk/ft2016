@@ -327,7 +327,7 @@ section.page-content p.images img {
 }
 
 section.page-content article p.button {
-  top: auto
+  top: auto;
   bottom: 2.5rem;
 }
 
