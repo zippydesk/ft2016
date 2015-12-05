@@ -122,14 +122,16 @@ nav ul {
 }
 
 .splash nav a {
-  padding: 0 1rem;
-  text-decoration: none;
-}
-
-.splash nav a {
   padding: 1.5rem 1rem;
   text-decoration: none;
   display: block;
+  transition: all .3s cubic-bezier(0.25, 0.35, 0.25, 1.25);;
+}
+
+.splash nav a:hover,
+.splash nav a:active {
+  color: #fff;
+  background: #eb3f2a;
 }
 
 .splash nav .register {
