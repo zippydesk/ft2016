@@ -303,15 +303,37 @@ section.page-content article:first-of-type h2:first-of-type {
   font-weight: 400;
 }
 
-section.page-content p.images {
+section.page-content article p.images,
+section.page-content article p.button {
   position: absolute;
   top: 2.5rem;
-  right: 0;
   z-index: -1;
+}
+
+section.page-content article:nth-of-type(2n+1) p.images,
+section.page-content article:nth-of-type(2n+1) p.button {
+  right: 0;
+}
+
+section.page-content article:nth-of-type(2n) p.images,
+section.page-content article:nth-of-type(2n1) p.button {
+  left: 0;
 }
 
 section.page-content p.images img {
   display: block;
   width: 365px;
   margin-bottom: 50px;
+}
+
+section.page-content article p.button {
+  top: auto
+  bottom: 2.5rem;
+}
+
+a.button {
+  background: #4e2945;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  text-decoration: none;
 }
