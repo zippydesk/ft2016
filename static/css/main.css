@@ -397,9 +397,9 @@ section.page-content article p.button {
   */
 
 .splash footer {
-  margin-top: 1rem;
 }
 
 .splash footer nav {
+  margin: 1rem 0 0;
   text-align: left;
 }
