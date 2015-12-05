@@ -281,6 +281,7 @@ section.page-content article:nth-child(2n):before {
   color: #fff;
   padding: 1rem 25px;
   margin-right: -100px;
+  margin-left: -2rem;
 }
 
 .page-content p.images {
