@@ -40,7 +40,7 @@ p {
 blockquote {
   margin: 0;
   padding: 2rem 4rem;
-  border: 1px solid #eee;
+  background: #f9f5f2;
 }
 
 h2, h3 {
@@ -247,4 +247,32 @@ nav ul {
 
 .splash section.registration-box p:last-of-type {
   padding: 0 4rem 0 0;
+}
+
+/*
+  Generic content
+  */
+
+section.page-content article {
+  position: relative;
+}
+
+section.page-content article:nth-child(2n+1) {
+  padding-right: 415px;
+}
+
+section.page-content article:nth-child(2n) {
+  padding-left: 415px;
+}
+
+section.page-content article:nth-child(2n):before {
+  display: block;
+  content: "";
+  width: 450px;
+  height: 50%;
+  position: absolute;
+  background: #e9e9e9;
+  z-index: -1;
+  left: 0;
+  top: 4rem;
 }
