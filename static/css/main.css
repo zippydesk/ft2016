@@ -118,6 +118,7 @@ nav ul {
   background: #f9f5f2;
   margin: -3em 25px 1em;
   padding: 3em 1em 1em calc(75px + 1rem);
+  font-size: 14px;
 }
 
 .splash section.intro p,
