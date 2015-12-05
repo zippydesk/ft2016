@@ -145,15 +145,15 @@ nav ul {
 
 .splash section.speakers li:nth-of-type(4n+2),
 .splash section.speakers li:nth-of-type(4n+3) {
-  width: calc(50% - 3rem);
+  width: calc(50% - 5rem);
 }
 
 .splash section.speakers li:nth-of-type(4n+2) {
-  margin-left: 3rem;
+  margin-left: 5rem;
 }
 
 .splash section.speakers li:nth-of-type(4n+3) {
-  margin-right: 3rem;
+  margin-right: 5rem;
 }
 
 .splash section.speakers li h3 {
