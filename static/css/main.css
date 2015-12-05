@@ -183,6 +183,7 @@ nav ul {
   */
 .splash section.intro {
   margin-left: 345px;
+  margin-right: -2rem;
 }
 
 .splash section.intro p,
@@ -231,7 +232,7 @@ nav ul {
 .splash section.registration-box {
   position: absolute;
   width: 390px;
-  margin-top: -14em;
+  margin-top: -11em;
   text-align: right;
 }
 
