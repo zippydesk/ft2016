@@ -43,7 +43,7 @@ blockquote {
 
 h2, h3 {
   color: #4e2945;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 /*
@@ -282,6 +282,7 @@ section.page-content article:nth-child(2n):before {
   padding: 1rem 2rem;
   margin-right: -100px;
   margin-left: -2rem;
+  font-weight: 400;
 }
 
 .page-content p.images {
