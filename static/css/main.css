@@ -266,6 +266,10 @@ section.page-content article {
 }
 
 section.page-content article:nth-child(2n+1) {
+  padding-right: 415px;
+}
+
+section.page-content article:nth-child(2n+1):not(:first-of-type) {
   padding-right: 480px;
 }
 
