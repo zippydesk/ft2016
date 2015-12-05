@@ -280,12 +280,12 @@ section.page-content article:nth-child(2n):before {
   background: #eb3f2a;
   color: #fff;
   padding: 1rem 25px;
-  margin-right: -75px;
+  margin-right: -100px;
 }
 
 .page-content p.images {
   position: absolute;
-  top: 2em;
+  top: 2.5rem;
   right: 0;
   z-index: -1;
 }
