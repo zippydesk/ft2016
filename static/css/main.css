@@ -14,7 +14,7 @@ body {
   font-family: Lato, sans-serif;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   body {
     width: 960px;
     margin: 0 0 0 2rem;
@@ -70,7 +70,7 @@ img {
   text-align: right;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .splash header {
     position: absolute;
     width: 245px;
@@ -151,7 +151,7 @@ nav ul {
     margin-left: 3rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .splash nav .register {
       width: calc(100% - 2rem);
       margin: 0 2rem;
@@ -180,7 +180,7 @@ nav ul {
   padding: 0;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .splash section.speakers ul {
     display: flex;
     flex-wrap: wrap;
@@ -229,7 +229,7 @@ nav ul {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .splash section.speakers li p {
     margin-bottom: 1rem;
     padding: 0 1rem 0 calc(100px + 1rem);
@@ -252,7 +252,7 @@ nav ul {
   background: #eb3f2a;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .splash section.intro p {
     padding: 2rem 2rem 0;
   }
@@ -262,7 +262,7 @@ nav ul {
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .splash section.intro {
     margin-left: 345px;
     margin-right: -2rem;
@@ -307,7 +307,7 @@ nav ul {
   Registration box
   */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .splash section.registration-box p:last-of-type {
     padding: 0 2em;
   }
@@ -328,19 +328,19 @@ nav ul {
   transition: all .2s cubic-bezier(0.25, 0.35, 0.25, 1.25);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .splash section.registration-box p:first-of-type a {
     margin-top: 2rem;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .splash section.registration-box p:first-of-type a {
     padding: 2rem;
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .splash section.registration-box {
     position: absolute;
     width: 390px;
@@ -374,7 +374,7 @@ nav ul {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .splash section.sponsorship {
     display: flex;
   }
@@ -418,7 +418,7 @@ section.page-content {
   margin-top: 3em;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   section.page-content {
     padding: 0 2rem;
   }
@@ -433,7 +433,7 @@ section.page-content article {
   position: relative;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   section.page-content article:nth-child(2n+1) {
     padding-right: 415px;
   }
@@ -477,7 +477,7 @@ p.images {
   display: none;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   section.page-content article p.images,
   section.page-content article p.button {
     display: block;
