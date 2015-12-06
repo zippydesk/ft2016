@@ -316,6 +316,7 @@ nav ul {
 .splash section.sponsorship .previous-supporters ul {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -327,7 +328,8 @@ nav ul {
 }
 
 .splash section.sponsorship .previous-supporters img {
-  width: 100px;
+  max-width: 100px;
+  max-height: 50px;
 }
 
 /*
