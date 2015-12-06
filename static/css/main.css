@@ -408,6 +408,17 @@ section.page-content {
   margin-top: 3em;
 }
 
+@media screen and (max-width: 1024px) {
+  section.page-content {
+    padding: 0 2rem;
+  }
+  
+  section.speakers img {
+    width: calc(100% + 4rem);
+    margin: 0 -2rem;
+  }
+}
+
 section.page-content article {
   position: relative;
 }
