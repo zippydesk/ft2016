@@ -364,11 +364,16 @@ nav ul {
   Sponsorship
   */
   
-
 .splash section.sponsorship {
   margin: 0 -2rem;
   padding: 3rem;
   background: #f4f4f4;
+}
+
+@media screen and (min-width: 1024px) {
+  .splash section.sponsorship {
+    margin: 0;
+  }
 }
 
 .splash section.sponsorship h2 {
