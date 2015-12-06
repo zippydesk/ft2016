@@ -370,7 +370,7 @@ nav ul {
   background: #f4f4f4;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .splash section.sponsorship {
     margin: 0;
   }
