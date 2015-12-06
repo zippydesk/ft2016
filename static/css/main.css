@@ -64,6 +64,7 @@ img {
   */
 
 .splash header {
+  padding: 1rem 2rem .5rem;
   background: #eb3f2a;
   color: #fff;
   text-align: right;
@@ -74,11 +75,7 @@ img {
     position: absolute;
     width: 245px;
     height: 260px;
-    padding-top: 5rem;
-    padding-right: 1rem;
-    background: #eb3f2a;
-    color: #fff;
-    text-align: right;
+    padding: 0 1rem 0 5rem;
   }
 }
 
@@ -92,10 +89,8 @@ img {
   font-weight: 900;
 }
 
-@media screen and (min-width: 1024px) {
-  .splash header .place {
-    display: block;
-  }
+.splash header .place {
+  display: block;
 }
 
 .splash h2 {
