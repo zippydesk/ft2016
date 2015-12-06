@@ -320,6 +320,12 @@ nav ul {
 
 @media screen and (max-width: 1024px) {
   .splash section.registration-box p:first-of-type a {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .splash section.registration-box p:first-of-type a {
     padding: 2rem;
   }
 }
