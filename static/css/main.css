@@ -64,7 +64,7 @@ img {
   */
 
 .splash header {
-  padding: 1rem 2rem .5rem;
+  padding: 1.5rem 2rem .5rem;
   background: #eb3f2a;
   color: #fff;
   text-align: right;
@@ -149,6 +149,13 @@ nav ul {
 
 .splash nav .register {
     margin-left: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .splash nav .register {
+      width: calc(100% - 2rem);
+      margin: 0 2rem;
+  }
 }
 
 .splash nav .register a {
