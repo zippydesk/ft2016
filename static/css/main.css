@@ -379,25 +379,25 @@ nav ul {
     margin-left: 100px;
     margin-top: calc(32px + 1rem);
   }
+}
 
-  .splash section.sponsorship .previous-supporters ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+.splash section.sponsorship .previous-supporters ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .splash section.sponsorship .previous-supporters li {
-    width: 50%;
-    margin: 1rem 0;
-  }
+.splash section.sponsorship .previous-supporters li {
+  width: 50%;
+  margin: 1rem 0;
+}
 
-  .splash section.sponsorship .previous-supporters img {
-    max-width: 100px;
-    max-height: 40px;
-  }
+.splash section.sponsorship .previous-supporters img {
+  max-width: 100px;
+  max-height: 40px;
 }
 
 /*
