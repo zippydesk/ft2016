@@ -172,13 +172,16 @@ nav ul {
   Speaker list
   */
 
+.splash section.speakers ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (min-width: 1024px) {
   .splash section.speakers ul {
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
   }
 
   .splash section.speakers li {
