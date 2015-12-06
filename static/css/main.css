@@ -184,6 +184,7 @@ nav ul {
   .splash section.speakers ul {
     display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
