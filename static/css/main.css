@@ -182,6 +182,7 @@ nav ul {
 
 @media screen and (min-width: 1024px) {
   .splash section.speakers ul {
+    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
   }
@@ -376,6 +377,7 @@ nav ul {
 
 @media screen and (min-width: 1024px) {
   .splash section.sponsorship {
+    display: -webkit-flex;
     display: flex;
   }
 
@@ -392,8 +394,10 @@ nav ul {
 }
 
 .splash section.sponsorship .previous-supporters ul {
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
+  -webkit-align-items: center;
   align-items: center;
   list-style-type: none;
   margin: 0;
