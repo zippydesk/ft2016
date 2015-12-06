@@ -9,7 +9,7 @@ body {
   padding: 0;
   background-color: #fff;
   color: #333;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5em;
   font-family: Lato, sans-serif;
 }
@@ -291,7 +291,13 @@ nav ul {
 /*
   Registration box
   */
-  
+
+@media screen and (max-width: 1024px) {
+  .splash section.registration-box p:last-of-type {
+    padding: 0 2em;
+  }
+}
+
 .splash section.registration-box p:first-of-type a:hover,
 .splash section.registration-box p:first-of-type a:focus {
   background: #692d5a;
@@ -305,6 +311,12 @@ nav ul {
   font-size: 32px;
   text-decoration: none;
   transition: all .2s cubic-bezier(0.25, 0.35, 0.25, 1.25);
+}
+
+@media screen and (max-width: 1024px) {
+  .splash section.registration-box p:first-of-type a {
+    padding: 2rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
