@@ -111,14 +111,26 @@ nav ul {
   padding: 0;
 }
 
+.splash section.speakers img {
+  -webkit-filter: saturate(.5) sepia(.5);
+  filter: saturate(.5) sepia(.5);
+}
+
+.splash section.speakers li:nth-of-type(4n+2) img {
+  -webkit-filter: saturate(.5) sepia(.5) hue-rotate(220deg);
+  filter: saturate(.5) sepia(.5) hue-rotate(220deg);
+}
+
+.splash section.speakers li:nth-of-type(4n+3) img {
+  -webkit-filter: saturate(.5) sepia(.5) hue-rotate(300deg);
+  filter: saturate(.5) sepia(.5) hue-rotate(300deg);
+}
+
 @media screen and (min-width: 102px) {
-  .speakers picture,
-  .speakers img {
+  .splash section.speakers img {
     float: left;
     max-width: 100px;
     margin-right: 1rem;
-    -webkit-filter: saturate(.5) sepia(.5);
-    filter: saturate(.5) sepia(.5);
   }
 }
 
