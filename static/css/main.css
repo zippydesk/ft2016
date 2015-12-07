@@ -425,6 +425,12 @@ nav ul {
 
 @media screen and (max-width: 1023px) {
   .splash section.sponsorship {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .splash section.sponsorship {
     margin: 0;
   }
 }
