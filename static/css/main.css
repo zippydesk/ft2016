@@ -189,6 +189,11 @@ nav ul {
   transition: all .2s cubic-bezier(0.25, 0.35, 0.25, 1.25);;
 }
 
+.splash nav h4 {
+  padding: 1.5rem 1rem;
+  font-weight: 400;
+}
+
 .splash nav a:hover,
 .splash nav a:active {
   color: #fff;
