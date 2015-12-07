@@ -130,6 +130,12 @@ nav ul {
 .splash section.speakers img {
   -webkit-filter: saturate(.5) sepia(.5);
   filter: saturate(.5) sepia(.5);
+  transition: all .2s cubic-bezier(0.25, 0.35, 0.25, 1.25);
+}
+
+.splash section.speakers img:hover {
+  -webkit-filter: saturate(.5) sepia(.5) hue-rotate(60deg);
+  filter: saturate(.5) sepia(.5) hue-rotate(60deg);
 }
 
 .splash section.speakers li:nth-of-type(4n+2) img {
@@ -137,10 +143,22 @@ nav ul {
   filter: saturate(.5) sepia(.5) hue-rotate(220deg);
 }
 
+.splash section.speakers li:nth-of-type(4n+2) img:hover {
+  -webkit-filter: saturate(.5) sepia(.5) hue-rotate(000deg);
+  filter: saturate(.5) sepia(.5) hue-rotate(300deg);
+}
+
+
 .splash section.speakers li:nth-of-type(4n+3) img {
   -webkit-filter: saturate(.5) sepia(.5) hue-rotate(300deg);
   filter: saturate(.5) sepia(.5) hue-rotate(300deg);
 }
+
+.splash section.speakers li:nth-of-type(4n+3) img:hover {
+  -webkit-filter: saturate(.5) sepia(.5) hue-rotate(0deg);
+  filter: saturate(.5) sepia(.5) hue-rotate(0deg);
+}
+
 
 @media screen and (min-width: 102px) {
   .splash section.speakers img {
