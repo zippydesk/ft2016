@@ -53,6 +53,7 @@ a.button {
   padding: 1.5rem 2rem;
   color: #fff;
   text-decoration: none;
+  transition: all .2s cubic-bezier(0.25, 0.35, 0.25, 1.25);
 }
 
 a.button:hover,
