@@ -55,6 +55,12 @@ a.button {
   text-decoration: none;
 }
 
+a.button:hover,
+a.button:active {
+  color: #fff;
+  background: #eb3f2a;
+}
+
 img {
   max-width: 100%;
 }
