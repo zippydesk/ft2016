@@ -117,6 +117,8 @@ nav ul {
     float: left;
     max-width: 100px;
     margin-right: 1rem;
+    -webkit-filter: saturate(.5) sepia(.5);
+    filter: saturate(.5) sepia(.5);
   }
 }
 
