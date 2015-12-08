@@ -6,7 +6,7 @@ first_name: "Brenna"
 last_name: "O'Brien"
 photo: "http://"
 tagline: "Front-end engineer at TED, community builder who loves math"
-date: 2016-05-18 11:50:00
+custom_date: 2016-05-18 11:50:00
 timezone: Europe/Warsaw
 talk_day: 1
 talk_time: "11:50"

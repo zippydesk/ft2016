@@ -17,11 +17,12 @@
 
   <section class="page-content speakers" id="speakers">
     <h2>Speakers</h2>
+
     {% assign sorted_speakers = (site.speakers | sort: 'last_name') %}
     <ul>
       {% for speaker in sorted_speakers %}
         <li>
-          <a href="https://twitter.com/{{ speaker.twitter }}" title="{{ speaker.first_name }} {{ speaker.last_name }} on Twitter"><img src="{{ site.baseurl }}/static/img/speakers/{{ speaker.name | slugify }}.png" alt="{{ speaker.first_name }} {{ speaker.last_name }} photo"/></a>
+          <a href="https://twitter.com/{{ speaker.twitter }}" title="{{ speaker.first_name }} {{ speaker.last_name }} on Twitter"><img src="{{ site.baseurl }}static/img/speakers/{{ speaker.name | slugify }}.png" alt="{{ speaker.first_name }} {{ speaker.last_name }} photo"/></a>
           <h3><!--a href="{{ site.baseurl }}speakers/{{ speaker.slug }}"-->{{ speaker.first_name }} {{ speaker.last_name }}<!--/a--></h3>
           {% if speaker.twitter != "" %}<p><a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></p>{% endif %}
           <p class="tagline">{{ speaker.tagline }}</p>

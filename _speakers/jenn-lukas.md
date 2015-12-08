@@ -6,7 +6,7 @@ first_name: Jenn
 last_name: Lukas
 photo: ""
 tagline: "Standards-lovin’ Front-end Developer"
-date: 2016-05-18 11:50:00
+custom_date: 2016-05-18 11:50:00
 timezone: Europe/Warsaw
 talk_day: 3
 talk_time: "11:50"

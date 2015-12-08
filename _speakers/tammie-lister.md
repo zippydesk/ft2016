@@ -6,7 +6,7 @@ first_name: Tammie
 last_name: Lister
 photo: "http://"
 tagline: "WordPress contributor, passionate about Open Source"
-date: 2016-05-19 10:20:00
+custom_date: 2016-05-19 10:20:00
 timezone: Europe/Warsaw
 talk_day: 2
 talk_time: "10:20"

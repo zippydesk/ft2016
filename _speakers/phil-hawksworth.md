@@ -6,7 +6,7 @@ first_name: Phil
 last_name: Hawksworth
 photo: "http://"
 tagline: "Web geek, skier, coffee lover, bad dancer. Technical Director at R/GA"
-date: 2016-05-18 10:20:00
+custom_date: 2016-05-18 10:20:00
 timezone: Europe/Warsaw
 talk_day: 1
 talk_time: "09:45"

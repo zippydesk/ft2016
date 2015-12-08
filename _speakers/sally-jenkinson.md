@@ -6,7 +6,7 @@ first_name: Sally
 last_name: Jenkinson
 photo: "http://"
 tagline: "Freelance technical consultant, comic book fan, and an Xbox player"
-date: 2016-05-18 11:50:00
+custom_date: 2016-05-18 11:50:00
 timezone: Europe/Warsaw
 talk_day: 1
 talk_time: "11:50"

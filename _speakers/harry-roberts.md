@@ -6,7 +6,7 @@ first_name: Harry
 last_name: Roberts
 photo: ""
 tagline: "Front-end architect, plans, builds and maintains product-scale UIs"
-date: 2016-05-18 11:50:00
+custom_date: 2016-05-18 11:50:00
 timezone: Europe/Warsaw
 talk_day: 1
 talk_time: "11:50"
