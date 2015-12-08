@@ -190,6 +190,7 @@ nav ul {
 }
 
 .splash nav h4 {
+  margin: 0;
   padding: 1.5rem 1rem;
   font-weight: 400;
 }
