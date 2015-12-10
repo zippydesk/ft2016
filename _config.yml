@@ -7,8 +7,8 @@ port: 3000
 safe: true
 timezone: Europe/Warsaw
 
-url: http://zippydesk.github.io/
-baseurl: /ft2016/
+url: http://2016.front-trends.com
+baseurl: /
 title: "Front-Trends 2016"
 name: "Front-Trends 2016"
 author: Paweł Czerski
