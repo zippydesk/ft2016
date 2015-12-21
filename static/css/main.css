@@ -555,7 +555,7 @@ p.images {
 }
 
 @media screen and (min-width: 1024px) {
-  section.page-content article p.images,
+  body:not(.sponsorship) section.page-content article p.images,
   section.page-content article p.button {
     display: block;
     position: absolute;
@@ -563,17 +563,17 @@ p.images {
     z-index: -1;
   }
 
-  section.page-content article:nth-of-type(2n+1) p.images,
+  body:not(.sponsorship) section.page-content article:nth-of-type(2n+1) p.images,
   section.page-content article:nth-of-type(2n+1) p.button {
     right: 0;
   }
 
-  section.page-content article:nth-of-type(2n) p.images,
+  body:not(.sponsorship) section.page-content article:nth-of-type(2n) p.images,
   section.page-content article:nth-of-type(2n1) p.button {
     left: 0;
   }
 
-  section.page-content p.images img {
+  body:not(.sponsorship) section.page-content p.images img {
     display: block;
     width: 365px;
     margin-bottom: 50px;
@@ -584,6 +584,17 @@ p.images {
     bottom: 2.5rem;
     z-index: 1;
   }
+
+    body.sponsorship section.page-content p.images {
+        display: block;
+        overflow: hidden;
+    }
+
+    body.sponsorship section.page-content p.images img {
+        float: left;
+        width: calc(320px - 2rem);
+        margin: 0 1rem;
+    }
 }
 
 
