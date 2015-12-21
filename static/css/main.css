@@ -22,6 +22,12 @@ body {
   }
 }
 
+strong,
+em {
+    font-style: normal;
+    font-weight: 900;
+}
+
 a {
   color: #eb3f2a;
 }
@@ -43,8 +49,8 @@ blockquote {
   margin: 0;
 }
 
-h2, h3 {
-  color: #4e2945;
+h2, h3, h4 {
+  color: #692d5a;
   font-weight: 900;
 }
 
@@ -505,19 +511,19 @@ section.page-content article {
 }
 
 @media screen and (min-width: 1024px) {
-  section.page-content article:nth-child(2n+1) {
+  body:not(.sponsorship) section.page-content article:nth-child(2n+1) {
     padding-right: 415px;
   }
 
-  section.page-content article:nth-child(2n+1):not(:first-of-type) {
+  body:not(.sponsorship) section.page-content article:nth-child(2n+1):not(:first-of-type) {
     padding-right: 480px;
   }
 
-  section.page-content article:nth-child(2n) {
+  body:not(.sponsorship) section.page-content article:nth-child(2n) {
     padding-left: 415px;
   }
 
-  section.page-content article:nth-child(2n):before {
+  body:not(.sponsorship) section.page-content article:nth-child(2n):before {
     display: block;
     content: "";
     width: 400px;
@@ -580,6 +586,68 @@ p.images {
   }
 }
 
+
+ul.flat {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+ul.flat > li {
+    display: flex;
+    width: 25%;
+    padding-bottom: .5rem;
+}
+
+ul.flat > li em {
+    width: 5rem;
+    padding-right: 1rem;
+    text-align: right;
+}
+
+ul.clean {
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.clean > li {
+    margin-bottom: 1rem;
+    overflow: auto;
+}
+
+ul.alternating li:nth-child(2n+1) {
+    padding-right: 50px;
+}
+
+ul.alternating li:nth-child(2n) {
+    padding-left: 50px;
+}
+
+ul.clean .summary {
+    float: right;
+    width: 345px;
+    padding: .5rem 1rem;
+    margin: -.5rem 0 0 2rem;
+    background: #f9f5f2;
+}
+
+ul.pricing {
+    display: block;
+}
+
+ul.pricing > li {
+    display: inline-block;
+    width: auto;
+}
+
+ul.pricing > li:not(:last-child):after {
+    display: inline;
+    content: "\00a0\00a0\00a0\00a0//\00a0\00a0\00a0\00a0";
+}
+
 /*
   Footer
   */
@@ -590,4 +658,35 @@ p.images {
 .splash footer nav {
   margin: 1rem 0 0;
   text-align: left;
+}
+
+/*
+    Job Posting Board
+*/
+
+.jobs .page-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jobs .page-content ul a {
+    display: block;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    background: #f9f5f2;
+    color: inherit;
+    text-decoration: none;
+    transition: all .2s cubic-bezier(0.25, 0.35, 0.25, 1.25);
+}
+
+.jobs .page-content ul a:hover {
+    background-color: #fae7d9;
+}
+
+.jobs .page-content ul a h3,
+.jobs .page-content ul a h4,
+.jobs .page-content ul a p {
+    margin: 0;
+    font-size: inherit;
 }
