@@ -510,6 +510,10 @@ section.page-content article {
   position: relative;
 }
 
+.sponsorship section.page-content article:last-of-type {
+    margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 1024px) {
   body:not(.sponsorship) section.page-content article:nth-child(2n+1) {
     padding-right: 415px;

@@ -8,7 +8,7 @@
 
     <link href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css" type="text/css" rel="stylesheet"/>
     <link rel="shortcut icon" type="image/png" href="/static/img/front-trends-logo.png"/>
-    <link href="{{ site.baseurl }}static/css/main.css" type="text/css" rel="stylesheet"/>
+    <link href="{{ site.baseurl }}static/css/main.css?{{ site.time | date_to_xmlschema | slugify }}" type="text/css" rel="stylesheet"/>
   </head>
   <body class="{{ page.body-class }}">
     <header>
@@ -19,7 +19,7 @@
     <nav>
       <ul>
         <li class="intro"><a href="{{ site.baseurl }}">About</a></li>
-        <li class="sponsorship"><a href="{{ site.baseurl }}#sponsorship">Sponsorship</a></li>
+        <li class="sponsorship"><a href="{{ site.baseurl }}sponsorship">Sponsorship</a></li>
         <li class="register"><a href="{{ site.baseurl }}register">Register now!</a></li>
       </ul>
     </nav>
