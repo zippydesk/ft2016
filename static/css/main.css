@@ -447,22 +447,35 @@ nav ul {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1024px) {
-  .splash section.sponsorship {
-    display: -webkit-flex;
-    display: flex;
-  }
+@media screen and (max-width: 1023px) {    
 
-  .splash section.sponsorship .become-a-sponsor {
-    width: 50%;
-    margin-left: 50px;
-  }
+    .sponsorship section.page-content .action a.button {
+        display: block;
+        margin: 0 -2rem 2rem 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .splash section.sponsorship {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .splash section.sponsorship .become-a-sponsor {
+        width: 50%;
+        margin-left: 50px;
+    }
 
   .splash section.sponsorship .previous-supporters {
     width: calc(50% - 150px);
     margin-left: 100px;
     margin-top: calc(32px + 1rem);
   }
+
+    .sponsorship section.page-content .action {
+        margin: 3rem 0 0;
+    }
 }
 
 .splash section.sponsorship .previous-supporters ul {
@@ -559,6 +572,7 @@ p.images {
 }
 
 @media screen and (min-width: 1024px) {
+
   body:not(.sponsorship) section.page-content article p.images,
   section.page-content article p.button {
     display: block;
@@ -601,19 +615,27 @@ p.images {
     }
 }
 
-
 ul.flat {
-    display: flex;
-    flex-wrap: wrap;
     list-style-type: none;
     margin: 0 0 1rem;
     padding: 0;
 }
 
 ul.flat > li {
-    display: flex;
-    width: 25%;
     padding-bottom: .5rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    ul.flat {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul.flat > li {
+        display: flex;
+        width: 25%;
+    }
 }
 
 ul.flat > li em {
@@ -630,23 +652,32 @@ ul.clean {
 
 ul.clean > li {
     margin-bottom: 1rem;
-    overflow: auto;
-}
-
-ul.alternating li:nth-child(2n+1) {
-    padding-right: 50px;
-}
-
-ul.alternating li:nth-child(2n) {
-    padding-left: 50px;
 }
 
 ul.clean .summary {
-    float: right;
-    width: 345px;
-    padding: .5rem 1rem;
-    margin: -.5rem 0 0 2rem;
+    padding: .5rem 2rem;
+    margin: 0 -2rem 1rem -2rem;
     background: #f9f5f2;
+}
+
+@media screen and (min-width: 1024px) {
+    ul.clean > li {
+        overflow: auto;
+    }
+
+    ul.alternating li:nth-child(2n+1) {
+        padding-right: 50px;
+    }
+
+    ul.alternating li:nth-child(2n) {
+        padding-left: 50px;
+    }
+    ul.clean .summary {
+        float: right;
+        width: 345px;
+        margin: -.5rem 0 0 2rem;
+        padding: .5rem 1rem;
+    }
 }
 
 ul.pricing {
